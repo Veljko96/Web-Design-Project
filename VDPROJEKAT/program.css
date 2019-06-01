@@ -1,0 +1,39 @@
+
+.list {
+	list-style-type: none;
+}
+
+.btn-danger {
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+.form-check-inline {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.navbar-nav li:hover .dropdown-menu{
+        display: block;	/* Display the dropdown */
+    }
+    ul li.dropdown-menu a{
+        display: block;
+
+    }
+.hleb ol.breadcrumb {
+	padding: 15px 0; margin: 0;
+	background: transparent;
+	border: none;
+	color: #999;
+	font-size: 18px; font-family: 'Client Medium';
+}
+
+.hleb ol.breadcrumb li+li:before {
+    padding: 8px;
+    color: white;
+    content: "/\00a0";
+}
+
+.hleb ol.breadcrumb > li > a { color: white!important; }
+.hleb ol.breadcrumb > li > a:hover { color: #999!important; }
+.hleb ol.breadcrumb > .active > a  { color: #999; text-transform: uppercase }

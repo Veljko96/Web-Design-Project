@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<title>Pocetna strana</title>
+
+		<script>
+
+			function myMap() {
+				var mapCanvas = document.getElementById("map");
+				var mapOptions = {
+					center: new google.maps.LatLng(44.805330112, 20.425331632), zoom: 17
+				};
+				var map = new google.maps.Map(mapCanvas, mapOptions);
+				var myLatlng = new google.maps.LatLng(44.805330112, 20.425331632);
+				var marker = new google.maps.Marker({
+					position: myLatlng,
+					title:"Sava center"
+				});
+
+				// To add the marker to the map, call setMap();
+				marker.setMap(map);
+
+				var mapCanvas2 = document.getElementById("map2");
+				var mapOptions2 = {
+					center: new google.maps.LatLng(44.8153425, 20.462793299999932), zoom: 17
+				};
+				var map2 = new google.maps.Map(mapCanvas2, mapOptions2);
+				var myLatlng2 = new google.maps.LatLng(44.8153425, 20.462793299999932);
+				var marker2 = new google.maps.Marker({
+					position: myLatlng2,
+					title:"Dom omladine"
+				});
+
+				// To add the marker to the map, call setMap();
+				marker2.setMap(map2);
+
+				var mapCanvas3 = document.getElementById("map3");
+				var mapOptions3 = {
+					center: new google.maps.LatLng(44.825547, 20.408890499999984), zoom: 17
+				};
+				var map3 = new google.maps.Map(mapCanvas3, mapOptions3);
+				var myLatlng3 = new google.maps.LatLng(44.825547, 20.408890499999984);
+				var marker3 = new google.maps.Marker({
+					position: myLatlng3,
+					title:"Sava center"
+				});
+
+				// To add the marker to the map, call setMap();
+				marker3.setMap(map3);
+			}
+
+		</script>
+<link rel="stylesheet" type="text/css" href="header-style.css">
+</head>
+<body>
+	<div style="margin-bottom: 1%">
+		<nav class="navbar navbar-expand-md navbar-dark bg-danger text-white">
+			<h1 align="center" style="margin-right: 5%; margin-top: 0.5%"><b>MARVEL FEST</b></h1>
+			<a class='navbar-brand' href='http://marvel.com/' target="_blank"><img src="if_MARVEL_198572.png" height="50"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- likovi -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav" style="text-decoration-color: white">
+
+					<li class="nav-item active"><a class="nav-link" href="header.html">Početna <span class="sr-only">(current)</span></a></li>
+
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="o_festivalu.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O festivalu</a>
+
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="Ofestivalu.html">O samom festivalu</a>
+							<a class="dropdown-item" href="Ziri.html">Žiri</a>
+							<a class="dropdown-item" href="Nagrade.html">Nagrade</a>
+							<a class="dropdown-item" href="Sponzori.html">Sponzori</a>
+							<a class="dropdown-item" href="Kontakti.html">Kontakti</a>
+
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="Filmovi.html">Filmovi</a>
+							<a class="dropdown-item" href="ProdajnaMesta.html">Prodajna mesta</a>
+							<a class="dropdown-item" href="MestaProjekcija.html">MestaProjekcija</a>
+						</div>
+					</li>
+
+					<li class="nav-item"><a class="nav-link" href="Glumci.html">Glumci</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Vesti.html">Vesti</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Galerija.html">Galerija</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Omiljeni.html">Omiljeni</a></li>
+
+
+				</ul>
+				<div class="hleb" style="margin-left: 5%">
+					<ol class="breadcrumb">
+						<li>SR</li>
+						<li><a href="MestaProjekcija-eng.html">EN</a></li>
+					</ol>
+				</div>
+			</div> 
+		</nav>
+	</div>
+	
+	<div class="container">
+		<div class="row" style="margin-bottom: 5%;">
+			<div>
+				<h2 class="h2">Mesta projekcija:</h2><br>
+				<hr class="float-left" width="80%" style="margin-top: 0; padding-top: 0;">
+			</div>
+		</div>
+		<div class="row" style="margin-bottom: 5%;">
+			<div class="col-sm-6">
+				<a href="sava_centar.html" class="text-muted"><h3 class="h3">Sava centar</h3></a>
+				<div id="map"style="width:100%;height:80%;"></div>
+			</div>
+			<div class="col-sm-6">
+				<a href="sava_centar.html"><img style="width:100%;height:100%;" class="img-fluid float-left rounded" src="sava_centar.jpg"></a>
+			</div>
+		</div>
+		<div class="row" style="margin-bottom: 5%;">
+			<div class="col-sm-6">
+				<a href="dom_omladine.html"><img style="width:100%;height:100%; class="img-fluid float-left rounded" src="dom_omladine.jpg"></a>
+			</div>
+			<div class="col-sm-6">
+				<a href="dom_omladine.html" class="text-muted"><h3 class="h3">Dom omladine</h3></a>
+				<div id="map2"style="width:100%;height:80%;"></div>
+			</div>
+		</div>
+		<div class="row" style="margin-bottom: 5%;">
+			<div class="col-sm-6">
+				<a href="fontana.html" class="text-muted"><h3 class="h3">Fontana</h3></a>
+				<div id="map3"style="width:100%;height:80%;"></div>
+			</div>
+			<div class="col-sm-6">
+				<a href="fontana.html"><img style="width:100%;height:100%;" class="img-fluid float-left rounded" src="fontana.jpg"></a>
+			</div>
+		</div>
+	</div>
+
+	<footer class="bg-danger" style="margin-top: 1%">
+		<p align="center">
+			<font color="white">Copyright 2018, Marko Jovanović i Veljko Đorđević, Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu</font>
+		</p>
+	</footer>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGhsVpjnpP_alimoKSREfuSE8tJRA1v3U&callback=myMap"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<title>Pocetna strana</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<script type="text/javascript" src="skripte.js"></script>
+</head>
+<body>
+	<div style="margin-bottom: 1%">
+		<nav class="navbar navbar-expand-md navbar-dark bg-danger text-white">
+			<h1 align="center" style="margin-right: 5%; margin-top: 0.5%"><b>MARVEL FEST</b></h1>
+			<a class='navbar-brand' href='http://marvel.com/' target="_blank"><img src="slikaPoc.png" height="50"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- likovi -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav" style="text-decoration-color: white">
+
+					<li class="nav-item active"><a class="nav-link" href="index-eng.html">Home <span class="sr-only">(current)</span></a></li>
+
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="O_festivalu-eng.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="Ofestivalu-eng.html">About festival</a>
+							<a class="dropdown-item" href="Ziri-eng.html">Judges</a>
+							<a class="dropdown-item" href="Nagrade-eng.html">Awards</a>
+							<a class="dropdown-item" href="Sponzori-eng.html">Sponsors</a>
+							<a class="dropdown-item" href="Kontakti-eng.html">Contacts</a>
+
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="Filmovi-eng.html">Movies</a>
+							<a class="dropdown-item" href="ProdajnaMesta-eng.html">Where can you buy</a>
+							<a class="dropdown-item" href="MestaProjekcija-eng.html">Showing</a>
+						</div>
+					</li>
+
+					<li class="nav-item"><a class="nav-link" href="Glumci-eng.html">Actors</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Vesti-eng.html">Press</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Galerija-eng.html">Gallery</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Omiljeni-eng.html">Favorite</a></li>
+
+
+				</ul>
+				<div class="hleb" style="margin-left: 5%">
+					<ol class="breadcrumb">
+						<li><a href="dunkirk.html">SR</a></li>
+						<li>EN</li>
+					</ol>
+				</div>
+			</div> 
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12" align="center">
+				<img class="img-fluid logo-head" src="dlogo.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12" align="center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe src="https://www.youtube.com/embed/F-eMt3SrfFU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="text-justify">Dunkirk is a 2017 war film written, directed, and co-produced by Christopher Nolan that depicts the Dunkirk evacuation of World War II. Its ensemble cast includes Fionn Whitehead, Tom Glynn-Carney, Jack Lowden, Harry Styles, Aneurin Barnard, James D'Arcy, Barry Keoghan, Kenneth Branagh, Cillian Murphy, Mark Rylance, and Tom Hardy. The film is a British-American-French-Dutch co-production, and was distributed by Warner Bros.
+
+					Dunkirk portrays the evacuation from three perspectives: land, sea, and air. It has little dialogue, as Nolan sought instead to create suspense from cinematography and music. Filming began in May 2016 in Dunkirk and ended that September in Los Angeles, when post-production began. Cinematographer Hoyte van Hoytema shot the film on IMAX 65 mm and 65 mm large-format film stock. Dunkirk has extensive practical effects, and employed thousands of extras as well as historic boats from the evacuation, and period aeroplanes.
+
+				The film premiered on 13 July 2017 at Odeon Leicester Square in London, and was released in the United Kingdom and the United States on 21 July in IMAX, 70 mm, and 35 mm film formats. It is the highest-grossing World War II film of all time, taking $527 million worldwide. Dunkirk received praise for its screenplay, direction, musical score, and cinematography; some critics called it Nolan's best work, and one of the greatest war films.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6" align="center">
+				<button class="btn btn-primary" onclick="addToFavouritesEng('dunkirk')">Add to favorites</button>
+			</div>
+			<div class="col-sm-6" align="center">
+				<button class="btn btn-primary" onclick="openReserveFormEng('dunkirk')">Reserve a ticket</button>
+			</div>
+		</div>
+	</div>
+
+	<footer class="bg-danger" style="margin-top: 1%">
+		<p align="center"><font color="white">Copyright 2018, Marko Jovanović i Veljko Đorđević, Department of Software Engineering. Faculty of Electrical Engineering, University of Belgrade</font></p>
+	</footer>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

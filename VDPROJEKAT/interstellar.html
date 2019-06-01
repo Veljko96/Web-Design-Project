@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<title>Pocetna strana</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<script type="text/javascript" src="skripte.js"></script>
+</head>
+<body>
+	<div style="margin-bottom: 1%">
+		<nav class="navbar navbar-expand-md navbar-dark bg-danger text-white">
+			<h1 align="center" style="margin-right: 5%; margin-top: 0.5%"><b>MARVEL FEST</b></h1>
+			<a class='navbar-brand' href='http://marvel.com/' target="_blank"><img src="if_MARVEL_198572.png" height="50"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- likovi -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav" style="text-decoration-color: white">
+
+					<li class="nav-item active"><a class="nav-link" href="header.html">Početna <span class="sr-only">(current)</span></a></li>
+
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="o_festivalu.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O festivalu</a>
+
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="Ofestivalu.html">O samom festivalu</a>
+							<a class="dropdown-item" href="Ziri.html">Žiri</a>
+							<a class="dropdown-item" href="Nagrade.html">Nagrade</a>
+							<a class="dropdown-item" href="Sponzori.html">Sponzori</a>
+							<a class="dropdown-item" href="Kontakti.html">Kontakti</a>
+
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="Filmovi.html">Filmovi</a>
+							<a class="dropdown-item" href="ProdajnaMesta.html">Prodajna mesta</a>
+							<a class="dropdown-item" href="MestaProjekcija.html">MestaProjekcija</a>
+						</div>
+					</li>
+
+					<li class="nav-item"><a class="nav-link" href="Glumci.html">Glumci</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Vesti.html">Vesti</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Galerija.html">Galerija</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Omiljeni.html">Omiljeni</a></li>
+
+
+				</ul>
+				<div class="hleb" style="margin-left: 5%">
+					<ol class="breadcrumb">
+						<li>SR</li>
+						<li><a href="interstellar-eng.html">EN</a></li>
+					</ol>
+				</div>
+			</div> 
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12" align="center">
+				<img class="img-fluid logo-head" src="ilogo.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12" align="center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe src="https://www.youtube.com/embed/zSWdZVtXT7E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="text-justify">Interstellar je 2014 epski naučno-fantastični film režirao, ko-pisao i koprodukirao Kristofer Nolan. To su glumci Matthev McConaughei, Anne Hathavai, Jessica Chastain, Bill Irvin, Ellen Burstin i Michael Caine. Postavljen u distopianskoj budućnosti u kojoj se čovječanstvo bori da preživi, film prati grupu astronauta koji putuju kroz crvoto u potrazi za novim domom za čovečanstvo. Braća Kristofer i Džonatan Nolan napisali su scenario koji je nastao u scenariju koji je Jonathan razvio 2007. Nolan je producirao Interstellar sa svojom suprugom Emom Tomas kroz produkciju Sincopi i Linda Obst kroz Linda Obst Productions. Teoretski fizičar Caltecha Kip Thorne bio je izvršni producent, radio je kao naučni konsultant i napisao knjigu "The Science of Interstellar". Paramount Pictures, Varner Bros. i Legendari Pictures sufinansirali film. Snimatelj Hoite van Hoitema snimio je na 35 mm u anamorfnom formatu i IMAKS 70 mm. Glavna fotografija počela je krajem 2013. godine i održana je u Alberti (Kanada), Islandu i Los Anđelesu. Interstellar koristi opsežne praktične i minijaturne efekte, a kompanija Double Negative je stvorila dodatne digitalne efekte.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6" align="center">
+				<button class="btn btn-primary" onclick="addToFavouritesSrp('interstellar')">Dodaj u omiljene</button>
+			</div>
+			<div class="col-sm-6" align="center">
+				<button class="btn btn-primary" onclick="openReserveForm('interstellar')">Rezervisi kartu</button>
+			</div>
+		</div>
+	</div>
+
+	<footer class="bg-danger" style="margin-top: 1%">
+		<p align="center">
+			<font color="white">Copyright 2018, Marko Jovanović i Veljko Đorđević, Odsek za softversko inženjerstvo Elektrotehničkog fakulteta Univerziteta u Beogradu</font>
+		</p>
+	</footer>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

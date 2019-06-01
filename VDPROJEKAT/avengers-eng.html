@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<script language="JavaScript" type="text/javascript" src="skripte.js"></script>
+</head>
+<body>
+	<div style="margin-bottom: 1%">
+		<nav class="navbar navbar-expand-md navbar-dark bg-danger text-white">
+			<h1 align="center" style="margin-right: 5%; margin-top: 0.5%"><b>MARVEL FEST</b></h1>
+			<a class='navbar-brand' href='http://marvel.com/' target="_blank"><img src="slikaPoc.png" height="50"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<!-- likovi -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav" style="text-decoration-color: white">
+
+					<li class="nav-item active"><a class="nav-link" href="index-eng.html">Home <span class="sr-only">(current)</span></a></li>
+
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="O_festivalu-eng.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="Ofestivalu-eng.html">About festival</a>
+							<a class="dropdown-item" href="Ziri-eng.html">Judges</a>
+							<a class="dropdown-item" href="Nagrade-eng.html">Awards</a>
+							<a class="dropdown-item" href="Sponzori-eng.html">Sponsors</a>
+							<a class="dropdown-item" href="Kontakti-eng.html">Contacts</a>
+
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="Filmovi-eng.html">Movies</a>
+							<a class="dropdown-item" href="ProdajnaMesta-eng.html">Where can you buy</a>
+							<a class="dropdown-item" href="MestaProjekcija-eng.html">Showing</a>
+						</div>
+					</li>
+
+					<li class="nav-item"><a class="nav-link" href="Glumci-eng.html">Actors</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Vesti-eng.html">Press</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Galerija-eng.html">Gallery</a></li>
+
+					<li class="nav-item"><a class="nav-link" href="Omiljeni-eng.html">Favorite</a></li>
+
+
+				</ul>
+				<div class="hleb" style="margin-left: 5%">
+					<ol class="breadcrumb">
+						<li><a href="avengers.html">SR</a></li>
+						<li>EN</li>
+					</ol>
+				</div>
+			</div> 
+		</nav>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12" align="center">
+				<img class="img-fluid logo-head" src="iwlogo.png">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12" align="center">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="text-justify">Avengers: Infinity War is a 2018 American superhero film based on the Marvel Comics superhero team the Avengers, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures. It is the sequel to 2012's The Avengers and 2015's Avengers: Age of Ultron, and the nineteenth film in the Marvel Cinematic Universe (MCU). The film is directed by Anthony and Joe Russo, written by Christopher Markus and Stephen McFeely, and features an ensemble cast including Robert Downey Jr., Chris Hemsworth, Mark Ruffalo, Chris Evans, Scarlett Johansson, Benedict Cumberbatch, Don Cheadle, Tom Holland, Chadwick Boseman, Paul Bettany, Elizabeth Olsen, Anthony Mackie, Sebastian Stan, Danai Gurira, Letitia Wright, Dave Bautista, Zoe Saldana, Josh Brolin, and Chris Pratt. In Avengers: Infinity War, the Avengers and the Guardians of the Galaxy attempt to stop Thanos from amassing the all-powerful Infinity Stones.
+
+				The film was announced in October 2014 as Avengers: Infinity War – Part 1. The Russo brothers came on board to direct in April 2015 and by May, Markus and McFeely had signed on to write the script for the film, which drew inspiration from Jim Starlin's 1991 The Infinity Gauntlet comic and Jonathan Hickman's 2013 Infinity comic. In 2016, Marvel shortened the title to Avengers: Infinity War. Filming began in January 2017 at Pinewood Atlanta Studios in Fayette County, Georgia, and lasted until July 2017, shooting back-to-back with a direct sequel. Additional filming took place in Scotland, England, the Downtown Atlanta area, and New York City. With an estimated budget in the range of $316–400 million, it is one of the most expensive films ever made.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6" align="center">
+				<button class="btn btn-primary" onclick="addToFavouritesEng('avengers')">Add to favorites</button>
+			</div>
+			<div class="col-sm-6" align="center">
+				<button class="btn btn-primary" onclick="openReserveFormEng('avengers')">Reserve a ticket</button>
+			</div>
+		</div>
+	</div>
+
+	<footer class="bg-danger" style="margin-top: 1%">
+		<p align="center"><font color="white">Copyright 2018, Marko Jovanović i Veljko Đorđević, Department of Software Engineering. Faculty of Electrical Engineering, University of Belgrade</font></p>
+	</footer>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
